@@ -44,8 +44,8 @@ namespace TravisCILab
                             throw new ArgumentException("You did not select a valid option!");
                     }
 
-                    var x = GetInput("Enter x: ");
-                    var y = GetInput("Enter y: ");
+                    var x = GetInput("Enter X: ");
+                    var y = GetInput("Enter Y: ");
                     var result = operation(x, y);
                     Console.WriteLine($"Result: {result}");
                 }
